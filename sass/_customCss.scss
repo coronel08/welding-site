@@ -19,19 +19,6 @@ $button: #3c63b8;
     font-size: 3rem;
 }
 
-@include media-breakpoint-up(md){
-    .header-logo{
-        font-size: 8rem;
-    }
-}
-
-@include media-breakpoint-up(lg){
-    .header-logo{
-        font-size: 11rem;
-    }
-}
-
-
 .header-box{
     border: 8px solid $highlight;
     border-radius: 3rem;
@@ -42,29 +29,63 @@ $button: #3c63b8;
 
 }
 
-@include media-breakpoint-up(md){
-    .header-box{
-        margin: 8rem;
-        border-radius: 3rem;
-    }
-}
-
-@include media-breakpoint-up(lg){
-    .header-box{
-        margin: 10rem 30rem;
-    }
-}
-
 .logo-text{
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.5rem;
 }
 
-#header-button{
+.header-button{
     color: $base;
     background-color: $button;
 }
 
+.header-slug{
+    background-color: $highlight;
+    color: $paragraph;
+    height: 5rem;
+    font-weight: 600;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
-// Custom CSS Body
+// Custom CSS Body TBD
+
+
+
+// Media Responsive
+@include media-breakpoint-up(md){
+    .header-logo{
+        font-size: 8rem;
+    }
+
+    .header-box{
+        margin: 8rem;
+        border-radius: 3rem;
+    }
+
+    .header-slug{
+        font-size: 1.2rem;
+    }
+}
+
+@include media-breakpoint-up(lg){
+    .header-bg{
+        background-position: 0 -450px;
+    }
+
+    .header-logo{
+        font-size: 11rem;
+    }
+
+    .header-box{
+        margin: 8rem 30rem;
+    }
+
+    .header-slug{
+        font-size: 1.5rem;
+    }
+
+}
