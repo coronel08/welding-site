@@ -114,10 +114,16 @@ defined( 'ABSPATH' ) || exit;
                 <div class="text-center header-box">
                     <h1 class="header-logo"> Slogan </h1>
                     <p class="logo-text pt-3"> Tagline and Logo</p>
-                    <a href="#" class="btn btn-lg mb-4" id="header-button" role="button">
+                    <a href="#" class="header-button btn btn-lg mb-4" role="button">
                         Get a Free Estimate <i class="fa fa-home"></i>
                     </a>
                 </div>
+            </div>
+        </section>
+        <!-- Break for header slug info-->
+        <section>
+            <div class="header-slug px-2 text-center">
+                <p>Reliable mobile welding services covering Los Angeles and surroundoing areas</p>
             </div>
         </section>
 
