@@ -1,0 +1,70 @@
+$background: #0f0e17;
+$paragraph: #a7a9be;
+$base: #fffffe;
+$highlight: #79242f;
+$button: #3c63b8;
+
+
+// Custom CSS Header
+.header-bg{
+    background-image: url("https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    // possible second image https://images.unsplash.com/photo-1514472796143-14ece5ab7d94?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.header-logo{
+    font-family: 'Pacifico', cursive;
+    font-size: 3rem;
+}
+
+@include media-breakpoint-up(md){
+    .header-logo{
+        font-size: 8rem;
+    }
+}
+
+@include media-breakpoint-up(lg){
+    .header-logo{
+        font-size: 11rem;
+    }
+}
+
+
+.header-box{
+    border: 8px solid $highlight;
+    border-radius: 3rem;
+    margin:3rem;
+    padding: 1px;
+    background-color: rgba(15, 14, 23,0.5);
+    color: $base;
+
+}
+
+@include media-breakpoint-up(md){
+    .header-box{
+        margin: 8rem;
+        border-radius: 3rem;
+    }
+}
+
+@include media-breakpoint-up(lg){
+    .header-box{
+        margin: 10rem 30rem;
+    }
+}
+
+.logo-text{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+}
+
+#header-button{
+    color: $base;
+    background-color: $button;
+}
+
+
+
+// Custom CSS Body
