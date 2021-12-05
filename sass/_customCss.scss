@@ -48,7 +48,7 @@ $button: #3c63b8;
     background-color: $highlight;
     color: $paragraph;
     height: 5rem;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 0.8rem;
     display: flex;
     justify-content: center;
@@ -57,7 +57,9 @@ $button: #3c63b8;
 
 
 // Custom CSS Body TBD
-
+.body-bg{
+    background-color:$background;
+}
 
 
 // Media Responsive
