@@ -37,6 +37,11 @@ $button: #3c63b8;
 .header-button{
     color: $base;
     background-color: $button;
+    
+    &:hover{
+        transition: 0.8s;
+        transform: scale(1.2);
+    }
 }
 
 .header-slug{
