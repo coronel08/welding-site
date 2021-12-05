@@ -37,7 +37,7 @@ $button: #3c63b8;
 .header-button{
     color: $base;
     background-color: $button;
-    
+
     &:hover{
         transition: 0.8s;
         transform: scale(1.2);
@@ -61,6 +61,32 @@ $button: #3c63b8;
     background-color:$background;
 }
 
+.icon-border{
+    border: 1rem solid $highlight;
+    background-color: $highlight;
+    border-radius: 100%;
+    padding: 1rem;
+    margin-bottom:-1.8rem;
+}
+
+.icon-h3{
+    background-color: $highlight;
+    padding: 1rem 1rem;
+    margin:0 1rem;
+}
+
+.services-card{
+    &:hover{
+        background-color:$highlight;
+    }
+}
+
+.testimonial-photo{
+    max-width: 100px;
+    max-height: 100px;
+    padding-bottom: 5rem;
+}
+
 
 // Media Responsive
 @include media-breakpoint-up(md){
@@ -75,6 +101,13 @@ $button: #3c63b8;
 
     .header-slug{
         font-size: 1.2rem;
+    }
+
+    .testimonial-photo{
+        max-width: 400px;
+        max-height: 400px;
+        padding-bottom: 5rem;
+        padding-left: 1rem;
     }
 }
 
@@ -94,5 +127,4 @@ $button: #3c63b8;
     .header-slug{
         font-size: 1.5rem;
     }
-
 }
